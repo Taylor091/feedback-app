@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>We are the Champions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="top-header">
+            <img src="assets/freddie.png">
+            <h1>We are the Champions</h1>
+        </div>
+        <div id="input-area">
+            <textarea class= "input-boxes" id="input-message-el" placeholder="Write your endorsement here"></textarea>
+            <div>
+                <input class= "input-boxes" id="from-el" placeholder="From"> 
+                <input class= "input-boxes" id="to-el" placeholder="To">
+            </div>
+            <div>
+                <button id="publish-btn">Publish</btn>
+            </div>
+        </div>
+        <div id="output-area">
+            <h2>- Endorsements -</h2>
+            <ul id="endorsements-el">
+                <ul id="individual-endorsement-el">
+                </ul>
+            </ul>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
